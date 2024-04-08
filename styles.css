@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #c5c9c8;
+    color: #c2c6c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #2a2622;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+
+.hero {
+    text-align: center;
+}
+
+.image-container {
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    border: 2px solid black; /* Add border */
+    padding: 10px; /* Add padding */
+    max-width: calc(100% - 20px); /* Set maximum width to 100% of viewport width minus padding */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.bio {
+    text-align: left; /* Align bio text to the left */
+    margin-top: 20px; /* Add some space between the image and the bio */
+    padding: 80px; /* Add padding to the bio */
+    display: flex; /* Add flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-image {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-left: 520px; /* Add margin to separate from bio */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left; /* Center the text in the footer */
+    padding: 80px;
+    background-color: #c5c9c8;
+}
+
+.social-media {
+    margin-top: 20px; /* Adjust margin as needed */
+    padding: 0px;
+}
+
+.map {
+    display: flex;
+    justify-content: flex-end; /* Align map to the right */
+    margin-top: -20px; /* Adjust margin to align with the Quick Links line */
+    width: 100%; /* Set width to fill its container */
+}
+
+.map iframe {
+    width: 60%; /* Set the width to fill its container */
+    height: 300px; /* Set the height as needed */
+    padding-left: 20px; /* Add padding to the left */
+}
